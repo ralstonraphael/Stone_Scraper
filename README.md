@@ -1,30 +1,34 @@
 <p align="center">
-    <img src="Stone_Scraper.git.png" align="center" width="30%">
+    <img src="assets/StoneScraper Logo.png" align="center" width="70%">
 </p>
 <p align="center"><h1 align="center">STONE_SCRAPER.GIT</h1></p>
 <p align="center">
 	<em>Extracting Web Intelligence, One Page at a Time!</em>
 </p>
-<p align="center">
-	<!-- Shields.io badges disabled, using skill icons. --></p>
 <p align="center">Built with the tools and technologies:</p>
 <p align="center">
-	<a href="https://skillicons.dev">
-		<img src="https://skillicons.dev/icons?i=md,selenium&theme=light">
-	</a></p>
-<br>
+  <img alt="Markdown" src="https://img.shields.io/badge/Markdown-05122A?style=flat&logo=markdown">
+  <img alt="Selenium" src="https://img.shields.io/badge/Selenium-05122A?style=flat&logo=selenium">
+  <img alt="Python" src="https://img.shields.io/badge/Python-05122A?style=flat&logo=python">
+  <img alt="LangChain" src="https://img.shields.io/badge/LangChain-05122A?style=flat&logo=chainlink">
+  <img alt="BeautifulSoup" src="https://img.shields.io/badge/BeautifulSoup-05122A?style=flat&logo=soup&logoColor=white">
+  <img alt="Ollama" src="https://img.shields.io/badge/Ollama-05122A?style=flat&logo=ollama">
+  <img alt="OpenAI" src="https://img.shields.io/badge/OpenAI-05122A?style=flat&logo=openai">
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-05122A?style=flat&logo=streamlit">
+  <img alt="VSCode" src="https://img.shields.io/badge/VS%20Code-05122A?style=flat&logo=visualstudiocode">
+</p>
 
 <details><summary>Table of Contents</summary>
 
 - [📍 Overview](#-overview)
 - [👾 Features](#-features)
 - [📁 Project Structure](#-project-structure)
-  - [📂 Project Index](#-project-index)
+	- [📂 Project Index](#-project-index)
 - [🚀 Getting Started](#-getting-started)
-  - [☑️ Prerequisites](#-prerequisites)
-  - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
-  - [🧪 Testing](#🧪-testing)
+	- [☑️ Prerequisites](#️-prerequisites)
+	- [⚙️ Installation](#️-installation)
+	- [🤖 Usage](#-usage)
+	- [🧪 Testing](#-testing)
 - [📌 Project Roadmap](#-project-roadmap)
 - [🔰 Contributing](#-contributing)
 - [🎗 License](#-license)
@@ -41,16 +45,16 @@ StoneScraper.git is a ground-breaking AI-powered tool that transforms the way we
 
 ## 👾 Features
 
-|      | Feature         | Summary       |
-| :--- | :---:           | :---          |
+|     |      Feature      | Summary                                                                                                                                                                                                                                                                                                                         |
+| :-- | :---------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | ⚙️  | **Architecture**  | <ul><li>The architecture is based on a Python-powered script.</li><li>The project is structured into distinct script files for specific tasks such as `scrape.py` for web scraping and `parse.py` for data parsing.</li><li>The `main.py` script integrates all functions and provides an interactive user interface.</li></ul> |
-| 🔩 | **Code Quality**  | <ul><li>The code is well-structured into separate Python scripts with specific tasks.</li><li>There is a clear distinction of tasks among different scripts such as `main.py`, `scrape.py`, and `parse.py`.</li><li>The use of Python and its simplicity ensures maintainability and readability of the code.</li></ul> |
-| 📄 | **Documentation** | <ul><li>The primary language used is Python, with 3 Python files in the project.</li><li>Installation and usage commands are well-documented.</li><li>Dependencies are managed through the `requirements.txt` file.</li></ul> |
-| 🔌 | **Integrations**  | <ul><li>The project integrates several Python packages such as `streamlit`, `langchain`, `selenium`, and `beautifulsoup4`.</li><li>It also includes `chromedriver` for web navigation and scraping.</li><li>The `python-dotenv` package is used for managing environment variables.</li></ul> |
-| 🧩 | **Modularity**    | <ul><li>Tasks are separated into different scripts ensuring high modularity.</li><li>`scrape.py` handles web scraping, `parse.py` handles data parsing, and `main.py` integrates all functionalities.</li><li>The use of `requirements.txt` for managing dependencies also adds to the modularity.</li></ul> |
-| 🧪 | **Testing**       | <ul><li>Unit tests can be run using the `pytest` command as indicated in the documentation.</li><li>However, specific details about the test coverage and the results are not provided.</li></ul> |
-| ⚡️  | **Performance**   | <ul><li>The use of `selenium` and `chromedriver` ensures efficient web scraping.</li><li>`beautifulsoup4` and `lxml` allow for fast and efficient HTML parsing.</li><li>The `langchain` and `langchain_ollama` packages provide high-performance language processing capabilities.</li></ul> |
-| 🛡️ | **Security**      | <ul><li>The use of `python-dotenv` for managing environment variables provides a level of security for sensitive data.</li><li>However, without more details about authentication or encryption methods, a complete security analysis cannot be provided.</li></ul> |
+| 🔩  | **Code Quality**  | <ul><li>The code is well-structured into separate Python scripts with specific tasks.</li><li>There is a clear distinction of tasks among different scripts such as `main.py`, `scrape.py`, and `parse.py`.</li><li>The use of Python and its simplicity ensures maintainability and readability of the code.</li></ul>         |
+| 📄  | **Documentation** | <ul><li>The primary language used is Python, with 3 Python files in the project.</li><li>Installation and usage commands are well-documented.</li><li>Dependencies are managed through the `requirements.txt` file.</li></ul>                                                                                                   |
+| 🔌  | **Integrations**  | <ul><li>The project integrates several Python packages such as `streamlit`, `langchain`, `selenium`, and `beautifulsoup4`.</li><li>It also includes `chromedriver` for web navigation and scraping.</li><li>The `python-dotenv` package is used for managing environment variables.</li></ul>                                   |
+| 🧩  |  **Modularity**   | <ul><li>Tasks are separated into different scripts ensuring high modularity.</li><li>`scrape.py` handles web scraping, `parse.py` handles data parsing, and `main.py` integrates all functionalities.</li><li>The use of `requirements.txt` for managing dependencies also adds to the modularity.</li></ul>                    |
+| 🧪  |    **Testing**    | <ul><li>Unit tests can be run using the `pytest` command as indicated in the documentation.</li><li>However, specific details about the test coverage and the results are not provided.</li></ul>                                                                                                                               |
+| ⚡️ |  **Performance**  | <ul><li>The use of `selenium` and `chromedriver` ensures efficient web scraping.</li><li>`beautifulsoup4` and `lxml` allow for fast and efficient HTML parsing.</li><li>The `langchain` and `langchain_ollama` packages provide high-performance language processing capabilities.</li></ul>                                    |
+| 🛡️  |   **Security**    | <ul><li>The use of `python-dotenv` for managing environment variables provides a level of security for sensitive data.</li><li>However, without more details about authentication or encryption methods, a complete security analysis cannot be provided.</li></ul>                                                             |
 
 ---
 
@@ -69,8 +73,8 @@ StoneScraper.git is a ground-breaking AI-powered tool that transforms the way we
     └── scrape.py
 ```
 
-
 ### 📂 Project Index
+
 <details open>
 	<summary><b><code>STONE_SCRAPER.GIT/</code></b></summary>
 	<details> <!-- __root__ Submodule -->
@@ -103,6 +107,7 @@ StoneScraper.git is a ground-breaking AI-powered tool that transforms the way we
 </details>
 
 ---
+
 ## 🚀 Getting Started
 
 ### ☑️ Prerequisites
@@ -112,7 +117,6 @@ Before getting started with Stone_Scraper.git, ensure your runtime environment m
 - **Programming Language:** Python
 - **Package Manager:** Pip
 
-
 ### ⚙️ Installation
 
 Install Stone_Scraper.git using one of the following methods:
@@ -120,17 +124,18 @@ Install Stone_Scraper.git using one of the following methods:
 **Build from source:**
 
 1. Clone the Stone_Scraper.git repository:
+
 ```sh
 ❯ git clone https://github.com/ralstonraphael/Stone_Scraper.git
 ```
 
 2. Navigate to the project directory:
+
 ```sh
 ❯ cd Stone_Scraper.git
 ```
 
 3. Install the project dependencies:
-
 
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
@@ -138,10 +143,8 @@ Install Stone_Scraper.git using one of the following methods:
 ❯ pip install -r requirements.txt
 ```
 
-
-
-
 ### 🤖 Usage
+
 Run Stone_Scraper.git using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
@@ -149,8 +152,8 @@ Run Stone_Scraper.git using the following command:
 ❯ python {entrypoint}
 ```
 
-
 ### 🧪 Testing
+
 Run the test suite using the following command:
 **Using `pip`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Pip-3776AB.svg?style={badge_style}&logo=pypi&logoColor=white" />](https://pypi.org/project/pip/)
 
@@ -158,13 +161,13 @@ Run the test suite using the following command:
 ❯ pytest
 ```
 
-
 ---
+
 ## 📌 Project Roadmap
 
-- [X] **`Task 1`**: <strike>Implement feature one.</strike>
-- [ ] **`Task 2`**: Implement feature two.
-- [ ] **`Task 3`**: Implement feature three.
+- [x] **`Task 1`**: <strike>Implement webscraper API.</strike>
+- [ ] **`Task 2`**: Implement OpenAI API and deploy though cloud.
+- [ ] **`Task 3`**: Additional option to input your own API key.
 
 ---
 
@@ -213,12 +216,21 @@ Run the test suite using the following command:
 
 ## 🎗 License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [Unlicence](https://choosealicense.com/licenses). For more details, refer to the [LICENSE](https://Unlicence.com/licenses/) file.
 
 ---
 
 ## 🙌 Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+I’d like to express my gratitude to the tools, libraries, and communities that made this project possible:
+
+- **[Streamlit](https://streamlit.io/)** – for making it incredibly easy to build interactive web apps with Python.
+- **[LangChain](https://www.langchain.com/)** – for providing a powerful framework to integrate LLMs in structured pipelines.
+- **[OpenAI](https://openai.com/)** – for their accessible and reliable language models, powering intelligent text analysis.
+- **[Ollama](https://ollama.com/)** – for enabling local LLM experimentation and model integration.
+- **[Selenium](https://www.selenium.dev/)** – for automating browser interactions and web scraping workflows.
+- **[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)** – for efficient and intuitive HTML parsing.
+- **[Python](https://www.python.org/)** – the language at the core of everything.
+- Special thanks to the open-source community for making powerful tools accessible to everyone.
 
 ---
