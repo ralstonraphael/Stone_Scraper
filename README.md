@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="assets/stonescrapertransparent.png" align="center" width="70%">
-</p>
+    <img src="assets/finallogostonescrape.png" align="center" width="30%">
 <p align="center"><h1 align="center">STONE SCRAPER</h1></p>
 <p align="center">
 	<em>Extracting Web Intelligence, One Page at a Time!</em>
