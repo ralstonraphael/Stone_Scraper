@@ -1,7 +1,6 @@
-<p align="center">
-    <img src="assets/StoneScraper Logo.png" align="center" width="70%">
-</p>
-<p align="center"><h1 align="center">STONE_SCRAPER.GIT</h1></p>
+<p align="center" style="font-size: 128px;">🪨</p>
+
+<p align="center"><h1 align="center">STONE SCRAPER</h1></p>
 <p align="center">
 	<em>Extracting Web Intelligence, One Page at a Time!</em>
 </p>
