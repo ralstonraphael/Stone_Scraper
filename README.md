@@ -1,4 +1,7 @@
-<p align="center"><h1 align="center">STONE SCRAPER 🪨</h1></p>
+<p align="center">
+    <img src="assets/stonescrapertransparent.png" align="center" width="70%">
+</p>
+<p align="center"><h1 align="center">STONE SCRAPER</h1></p>
 <p align="center">
 	<em>Extracting Web Intelligence, One Page at a Time!</em>
 </p>
