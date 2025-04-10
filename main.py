@@ -45,7 +45,8 @@ if "dom_content" in st.session_state:
         st.text_area("Extracted Text Content", value=st.session_state.dom_content, height=300)
 
     st.markdown("## 🧠 Parse the Content Using AI")
-    st.markdown("Describe what information you want to extract from the cleaned content.")
+    st.markdown("<span style='color: red;'>🚫 AI capabilities currently unavailable.</span>", unsafe_allow_html=True)
+    st.markdown("Please run the app locally with Ollama. See the [GitHub repository](https://github.com/ralstonraphael/Stone_Scraper) for setup instructions.")
 
     parse_description = st.text_area("📝 Parsing Prompt", placeholder="e.g. Extract all headlines, prices, or metadata")
 
