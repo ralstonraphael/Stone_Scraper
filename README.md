@@ -38,7 +38,7 @@
 
 ## 📍 Overview
 
-StoneScraper.git is a ground-breaking AI-powered tool that transforms the way we harvest data from the web. By automating the extraction of structured data from websites, it offers invaluable assistance to data analysts, web researchers, and anyone interested in web data mining. Leveraging state-of-the-art technologies like Streamlit, Langchain, and Selenium, it streamlines web scraping, HTML cleaning, and data parsing. The result? A user-friendly, efficient, and interactive solution that turns unstructured web content into organized, actionable insights.
+Stone Scraper is a ground-breaking AI-powered tool that transforms the way we harvest data from the web. By automating the extraction of structured data from websites, it offers invaluable assistance to data analysts, web researchers, and anyone interested in web data mining. Leveraging state-of-the-art technologies like Streamlit, Langchain, and Selenium, it streamlines web scraping, HTML cleaning, and data parsing. The result? A user-friendly, efficient, and interactive solution that turns unstructured web content into organized, actionable insights.
 
 ---
 
